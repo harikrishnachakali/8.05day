@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .first_box{
+            width: 50px;
+            height: 20px;
+            position: absolute;
+            bottom: 300px;
+            border: 2px solid black;
+            animation-name: first_box;
+            animation-duration: 2s;
+            animation-timing-function: linear;
+            animation-iteration-count:infinite;
+            animation-direction: alternate-reverse;
+            
+            
+            
+       }
+        @keyframes first_box {
+
+            from{
+                background-color: rgb(212, 255, 0);
+                height: 20px;
+                
+            }
+            to{
+                background-color: rgb(128, 0, 0);
+                height: 200px;
+                
+            }
+            
+        }
+        .second_box{
+            width: 50px;
+            height: 20px;
+            position: absolute;
+            bottom: 300px;
+            left: 60px;
+            border: 2px solid black;
+            animation-name: second_box;
+            animation-duration: 1.3s;
+            animation-timing-function: ease;
+            animation-iteration-count:infinite;
+            animation-direction: alternate-reverse;
+            animation-direction: alternate-reverse;
+            
+
+        }
+        @keyframes second_box {
+
+        from{
+           background-color: rgb(26, 255, 0);
+           height: 20px;
+        }
+        to{
+          background-color: rgb(0, 128, 111);
+          height: 200px;
+        }
+
+       }
+        
+       .third_box{
+            width: 50px;
+            height: 20px;
+            position: absolute;
+            bottom: 300px;
+            left: 113px;
+            border: 2px solid black;
+            animation-name: third_box;
+            animation-duration: 1.5s;
+            animation-timing-function: ease-in;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+            
+            
+            
+       }
+        @keyframes third_box {
+
+            from{
+                background-color: violet;
+                height: 20px;
+            }
+            to{
+                background-color:red;
+                height: 200px;
+            }
+            
+        }
+        .fourth_box{
+            width: 50px;
+            height: 20px;
+            position: absolute;
+            bottom: 300px;
+            left: 165px;
+            border: 2px solid black;
+            animation-name: fourth_box;
+            animation-duration: 1.0s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+            
+
+        }
+        @keyframes fourth_box {
+
+        from{
+           background-color: rgb(225, 91, 91);
+           height: 20px;
+        }
+        to{
+          background-color: rgb(0, 6, 128);
+          height: 200px;
+        }
+
+       }
+        
+    </style>
+</head>
+<body>
+    <div class="first_box"></div>
+    <div class="second_box"></div>
+    <div class="third_box"></div>
+    <div class="fourth_box"></div>
+    
+    
+</body>
+</html>
